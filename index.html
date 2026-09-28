@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="theme-color" content="#8b5e3c">
+  <title>AURELIA JEWELS | Elegant Earrings</title>
+  <meta name="description" content="AURELIA JEWELS — elegant earrings for every occasion. Order directly on WhatsApp.">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header class="topbar">
+    <div class="brand">AURELIA <span>JEWELS</span></div>
+    <button class="menu" onclick="toggleMenu()">☰</button>
+    <nav id="nav">
+      <a href="#home">Home</a>
+      <a href="#shop">Shop</a>
+      <a href="#about">About</a>
+      <a href="#contact">Contact</a>
+    </nav>
+  </header>
+
+  <main>
+    <section id="home" class="hero">
+      <div class="hero-content">
+        <p class="eyebrow">TIMELESS • ELEGANT • FEMININE</p>
+        <h1>Jewellery that makes<br><em>every moment</em> shine.</h1>
+        <p>Discover beautiful earrings designed to add a graceful touch to your everyday style and special occasions.</p>
+        <a class="btn" href="#shop">SHOP COLLECTION</a>
+      </div>
+    </section>
+
+    <section id="shop" class="section">
+      <div class="section-head">
+        <p class="eyebrow">OUR COLLECTION</p>
+        <h2>Featured Earrings</h2>
+        <p>Choose your favourite pair and order directly on WhatsApp.</p>
+      </div>
+
+      <div class="toolbar">
+        <input id="search" type="search" placeholder="Search earrings..." oninput="filterProducts()">
+        <select id="category" onchange="filterProducts()">
+          <option value="all">All Styles</option>
+          <option value="gold">Gold</option>
+          <option value="silver">Silver</option>
+          <option value="purple">Purple</option>
+        </select>
+      </div>
+
+      <div id="products" class="grid"></div>
+    </section>
+
+    <section class="features">
+      <div><b>✦</b><h3>Elegant Designs</h3><p>Beautiful styles selected for a graceful look.</p></div>
+      <div><b>♡</b><h3>Easy Ordering</h3><p>Order directly through WhatsApp in a few taps.</p></div>
+      <div><b>✧</b><h3>Personal Support</h3><p>Message us for product and order assistance.</p></div>
+    </section>
+
+    <section id="about" class="about section">
+      <div>
+        <p class="eyebrow">ABOUT AURELIA</p>
+        <h2>Small details. Beautiful moments.</h2>
+        <p>AURELIA JEWELS brings together elegant earrings for women who love simple, stylish and eye-catching accessories.</p>
+        <p>Browse the collection, choose your favourite design and send your order request on WhatsApp.</p>
+      </div>
+      <div class="quote">“Your style deserves a little sparkle.”</div>
+    </section>
+
+    <section id="contact" class="contact">
+      <p class="eyebrow">GET IN TOUCH</p>
+      <h2>Ready to find your pair?</h2>
+      <p>For orders, availability or questions, message AURELIA JEWELS on WhatsApp.</p>
+      <a class="btn light" href="https://wa.me/919769664319?text=Hi%20AURELIA%20JEWELS%2C%20I%20want%20to%20know%20more%20about%20your%20earrings." target="_blank">WHATSAPP US</a>
+      <p class="phone">+91 97696 64319</p>
+    </section>
+  </main>
+
+  <footer>
+    <div class="brand">AURELIA <span>JEWELS</span></div>
+    <p>© 2026 AURELIA JEWELS. All rights reserved.</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
