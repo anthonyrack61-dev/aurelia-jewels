@@ -1,8 +1,8 @@
 const products = [
-  {name:"Royal Butterfly Pearl", price:"₹499", image:"images/butterfly-pearl.jpg", cat:"gold"},
-  {name:"Amethyst Flower Hoops", price:"₹399", image:"images/purple-flower.webp", cat:"purple"},
-  {name:"Black & Gold Petal", price:"₹549", image:"images/black-gold-flower.png", cat:"gold"},
-  {name:"Purple Butterfly Pearl", price:"₹449", image:"images/purple-butterfly.jpg", cat:"purple"},
+  {name:"Royal Butterfly Pearl", price:"₹499", image:"images/1321316_2.png", cat:"gold"},
+  {name:"Amethyst Flower Hoops", price:"₹399", image:"images/1321915_1.png", cat:"purple"},
+  {name:"Black & Gold Petal", price:"₹549", image:"images/O1CN01YUB4HK1vr6KeNRdQH_!!1592666225-0-cib.jpg", cat:"gold"},
+  {name:"Purple Butterfly Pearl", price:"₹449", image:"images/shopping (2).webp", cat:"purple"},
 ];
 
 function renderProducts(list=products){
